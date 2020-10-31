@@ -1,0 +1,62 @@
+@keyframes dash {
+	50% {
+		stroke-dashoffset: 333;
+		stroke: white;
+		fill: #1d0000;
+	}
+}
+
+// @keyframes stroke-it {
+// 	0%, 100% {
+// 		stroke-dashoffset: 999;
+// 		stroke: white;
+// 		fill: black;
+// 	}
+// 	63% {
+// 		stroke-dashoffset: 333;
+// 		stroke: black;
+// 		fill: white;
+// 	}
+// }
+
+@keyframes spherize {
+	0%, 100% {
+		width: 100px;
+		height: 50px;
+		border-radius: 100px / 50px;
+	}
+	50% {
+		height: 100px;
+		border-radius: 100px / 100px;
+	}
+}
+
+@keyframes scale {
+	0%, 100% {transform: scale(6)}
+	50% {transform: scale(9)}
+}
+
+@keyframes anim {
+  0%   { opacity: 0; filter: blur(18px)}
+  10%  { opacity: 0; }
+  90%  { opacity: 1; }
+  100% { opacity: 1; filter: blur(1px)}
+}
+
+@keyframes write {
+  0% { stroke-dasharray:10 20; }
+  100% { stroke-dasharray: 10 0; }
+}
+
+@keyframes stroke-it {
+	0%, 100% {
+		stroke-dashoffset: 999;
+		stroke: material-color('deep-purple', '900');
+		fill: material-color('indigo', '50');
+	}
+	63% {
+		stroke-dashoffset: 333;
+		stroke: material-color('pink', 'a400');
+		fill: material-color('deep-purple', '50');
+	}
+}

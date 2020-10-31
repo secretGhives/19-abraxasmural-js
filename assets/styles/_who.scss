@@ -1,0 +1,26 @@
+/* WHO ARE YOU */
+.who_are_you {
+	overflow: hidden;
+	// display: none;
+	// opacity: 0;
+	// color: material-color('deep-purple', '50');
+
+	> .presentation {
+		transform: scale(5) translate(-13%, 13%) rotate(-12deg);
+	}
+
+	.image { mix-blend-mode: difference; }
+
+	.right {
+		flex: 2;
+		margin-left: 2rem;
+		mix-blend-mode: color-burn;
+		color: material-color('light-blue', '500');
+	}
+
+	.title {
+		color: material-color('amber', '500');
+		font-family: 'bajernregular';
+	}
+
+}

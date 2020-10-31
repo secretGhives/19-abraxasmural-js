@@ -1,0 +1,31 @@
+.site-footer {
+	text-align: center;
+
+	svg {
+		width: 33px;
+		display: inline-flex;
+		margin: 3vw;
+
+		path {
+			stroke-width: 3;
+			stroke: material-color('indigo', '500');
+			animation: stroke-it 6s linear infinite;
+			stroke-dasharray: 999;
+			stroke-dashoffset: 333;
+		}
+	}
+	@keyframes stroke-it {
+		0%, 100% {
+			stroke-dashoffset: 999;
+			stroke: material-color('deep-purple', '900');
+			fill: material-color('indigo', '50');
+		}
+		63% {
+			stroke-dashoffset: 333;
+			stroke: material-color('pink', 'a400');
+			fill: material-color('deep-purple', '50');
+		}
+	}
+}
+
+

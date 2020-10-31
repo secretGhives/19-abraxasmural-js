@@ -1,0 +1,14 @@
+{
+  "short_name": "Abraxas Mural",
+  "name": "Abraxas Mural \n Creative Art Collective",
+  "start_url": "/?homescreen=true",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#12353C",
+  "background_color": "#E7D81D",
+  "icons": [{
+      "src": "/assets/abraxas_logo_rooster.png",
+      "sizes": "666x666",
+      "type": "image/png"
+  }]
+}

@@ -1,0 +1,33 @@
+/* WHAT ABOUT PRICING AND OTHER DETAILS */
+.what_about_pricing_and_other_details {
+	// display: none;
+	// overflow: hidden;
+	// opacity: 0;
+
+	> .presentation {
+		transform: scale(9) translate(0%, 0%) rotate(50deg);
+		&.hexagon {
+			background: material-color('light-blue', '100');
+		}
+	}
+
+	.content {
+		margin: 9em 0;
+		mix-blend-mode: color-burn;
+	}
+
+	.title {
+		font-family: 'bajernregular';
+	}
+
+	.thankstitle { margin-top: 3em; text-align: center; }
+
+	strong {
+		font-weight: 600;
+		padding: 0 1vw;
+		margin-bottom: 0.6vh;
+		background: $color-black;
+		color: $color-white;
+		display: inline-flex;
+	}
+}
